@@ -1,16 +1,17 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "features": {
-      "ghcr.io/devcontainers/features/powershell:1": {},
-      "azure-cli": "latest"
-    },
-    "customizations": {
-      "vscode": {
-        "extensions": [
-          "ms-dotnettools.csdevkit",
-          "ms-azuretools.vscode-docker",
-          "ms-azuretools.vscode-azureappservice"
-        ]
-      }
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/powershell:1": {},
+    "azure-cli": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-azuretools.vscode-docker",
+        "ms-azuretools.vscode-azureappservice"
+      ]
     }
+  }
 }
